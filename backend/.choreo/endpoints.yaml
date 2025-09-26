@@ -1,0 +1,8 @@
+version: 0.1
+
+endpoints:
+  - name: "userREST API"
+    port: 8000
+    type: userREST
+    networkvisibility: public
+    context: /
