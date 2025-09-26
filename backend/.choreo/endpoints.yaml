@@ -1,8 +1,8 @@
 version: 0.1
 
 endpoints:
-  - name: "userREST API"
+  - name: "REST API"
     port: 8000
-    type: userREST
-    networkvisibility: public
+    type: REST
+    networkVisibility: Public
     context: /
